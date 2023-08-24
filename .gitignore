@@ -3,4 +3,6 @@
 
 # vscode stuff
 *.vscode
+*__pycache__
 
+makefile

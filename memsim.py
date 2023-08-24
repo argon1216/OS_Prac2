@@ -11,7 +11,7 @@ def main():
     ############################
     # Check input parameters   #
     ############################
-
+    
     if (len(sys.argv) < 5):
         print("Usage: python memsim.py inputfile numberframes replacementmode debugmode")
         return
@@ -29,7 +29,7 @@ def main():
 
     frames = int(sys.argv[2])
     if frames < 1:
-       printf( "Frame number must be at least 1\n");
+       print(f"Frame number must be at least 1\n")
        return
 
     replacement_mode = sys.argv[3]
