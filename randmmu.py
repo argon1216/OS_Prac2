@@ -1,5 +1,6 @@
 from mmu import MMU
 import random
+
 class Page:
     def __init__(self,number: int, dirty: bool):
         self.number = number
